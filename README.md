@@ -1,3 +1,5 @@
+![](example.png)
+
 # What are Rits and the Currency system?
 The currency system is a form of currency on the server that allow players to buy command-only enchanted items. Obviously this is kinda cheating which is why it's completely optional to use. The currency system is designed to be a pretty balanced. Rits aren’t impossible to get but are designed to be not easy to AFK for. The currency system has a cheat safe built in where you can only get Rits if the player is in Survival Mode. Dying to anything but a player will wipe your Rits. The currency datapack also works with Xisuma’s AFK name changer where if the player goes AFK then they won't get any Rits. 
 
