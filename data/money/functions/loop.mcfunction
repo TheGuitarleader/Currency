@@ -41,6 +41,12 @@ scoreboard players remove @a[scores={guardianKill=1..}] guardianKill 1
 scoreboard players add @a[gamemode=survival,team=!hc_afk,scores={huskKill=1..}] currencyTotal 5
 scoreboard players remove @a[scores={huskKill=1..}] huskKill 1
 
+scoreboard players add @a[gamemode=survival,team=!hc_afk,scores={magmaKill=1..}] currencyTotal 2
+scoreboard players remove @a[scores={magmaKill=1..}] magmaKill 1
+
+scoreboard players add @a[gamemode=survival,team=!hc_afk,scores={phantomKill=1..}] currencyTotal 10
+scoreboard players remove @a[scores={phantomKill=1..}] phantomKill 1
+
 scoreboard players add @a[gamemode=survival,team=!hc_afk,scores={pillagerKill=1..}] currencyTotal 5
 scoreboard players remove @a[scores={pillagerKill=1..}] pillagerKill 1
 
@@ -76,6 +82,9 @@ scoreboard players remove @a[scores={witherKill=1..}] witherKill 1
 
 scoreboard players add @a[gamemode=survival,team=!hc_afk,scores={witherSKill=1..}] currencyTotal 10
 scoreboard players remove @a[scores={witherSKill=1..}] witherSKill 1
+
+scoreboard players add @a[gamemode=survival,team=!hc_afk,scores={vexSKill=1..}] currencyTotal 10
+scoreboard players remove @a[scores={vexSKill=1..}] vexSKill 1
 
 scoreboard players add @a[gamemode=survival,team=!hc_afk,scores={zombieKill=1..}] currencyTotal 1
 scoreboard players remove @a[scores={zombieKill=1..}] zombieKill 1
@@ -241,7 +250,7 @@ tag @a[advancements={adventure/two_birds_one_arrow=true},tag=!two_birds_one_arro
 scoreboard players add @a[advancements={adventure/whos_the_pillager_now=true},tag=!whos_the_pillager_now] currencyTotal 200
 tag @a[advancements={adventure/whos_the_pillager_now=true},tag=!whos_the_pillager_now] add whos_the_pillager_now
 
-scoreboard players add @a[advancements={adventure/arbalistic=true},tag=!arbalistic] currencyTotal 20000
+scoreboard players add @a[advancements={adventure/arbalistic=true},tag=!arbalistic] currencyTotal 100000
 tag @a[advancements={adventure/arbalistic=true},tag=!arbalistic] add arbalistic
 
 scoreboard players add @a[advancements={adventure/honey_block_slide=true},tag=!honey_block_slide] currencyTotal 200

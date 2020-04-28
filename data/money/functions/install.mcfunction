@@ -19,6 +19,8 @@ scoreboard objectives add evokerKill minecraft.killed:minecraft.evoker
 scoreboard objectives add ghastKill minecraft.killed:minecraft.ghast
 scoreboard objectives add guardianKill minecraft.killed:minecraft.guardian
 scoreboard objectives add huskKill minecraft.killed:minecraft.husk
+scoreboard objectives add magmaKill minecraft.killed:minecraft.magma_cube
+scoreboard objectives add phantomKill minecraft.killed:minecraft.phantom
 scoreboard objectives add pillagerKill minecraft.killed:minecraft.pillager
 scoreboard objectives add ravagerKill minecraft.killed:minecraft.ravager
 scoreboard objectives add shulkerKill minecraft.killed:minecraft.shulker
@@ -31,10 +33,8 @@ scoreboard objectives add vindicatorKill minecraft.killed:minecraft.vindicator
 scoreboard objectives add witchKill minecraft.killed:minecraft.witch
 scoreboard objectives add witherKill minecraft.killed:minecraft.wither
 scoreboard objectives add witherSKill minecraft.killed:minecraft.wither_skeleton
+scoreboard objectives add vexSKill minecraft.killed:minecraft.vex
 scoreboard objectives add zombieKill minecraft.killed:minecraft.zombie
 scoreboard objectives add zombieVKill minecraft.killed:minecraft.zombie_villager
 
-
-
-
-tellraw @a ["",{"text":"Currency Active"}]
+tellraw @a ["",{"text":"Currency: Active","italic":true,"color":"gray"}]
